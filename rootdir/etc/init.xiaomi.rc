@@ -43,6 +43,10 @@ on boot
 
     start nfc_hal_service
 
+    # Report max frequency to unity and miHoYo (HoYoverse) games tasks
+    write /proc/sys/kernel/sched_lib_name "com.miHoYo.,com.HoYoverse.,UnityMain,libunity.so"
+    write /proc/sys/kernel/sched_lib_mask_force 255
+
 service vendor.fps_hal_lc /vendor/bin/hw/android.hardware.biometrics.fingerprint@2.1-service_lc
     # "class hal" causes a race condition on some devices due to files created
     # in /data. As a workaround, postpone startup until later in boot once
