@@ -1,3 +1,10 @@
+on early-init
+    # Setup runtime blkio
+    write /dev/blkio/blkio.weight 1000
+    write /dev/blkio/background/blkio.weight 200
+    write /dev/blkio/blkio.group_idle 2000
+    write /dev/blkio/background/blkio.group_idle 0
+
 on init
     chown system system /dev/goodix_fp
     chmod 0644 /dev/goodix_fp
