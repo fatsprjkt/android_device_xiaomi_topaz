@@ -26,7 +26,7 @@ property Name is called. -->
                 <Prop Name="ro.vendor.perf.enable.prekill"  Value="true" />
                 <Prop Name="vendor.prekill_MIN_ADJ_to_Kill" Value="800"  />
                 <Prop Name="vendor.prekill_MAX_ADJ_to_Kill" Value="1000"  />
-                <Prop Name="vendor.enable.prefetch" Value="false" />
+                <Prop Name="vendor.enable.prefetch" Value="1" />
                 <Prop Name="vendor.iop.enable_prefetch_ofr" Value="0" />
                 <Prop Name="vendor.perf.iop_v3.enable" Value="false" />
                 <Prop Name="vendor.perf.iop_v3.enable.debug" Value="false" />
@@ -93,8 +93,6 @@ property Name is called. -->
                 <Prop Name="ro.vendor.perf.count.prefapps" Value="5" Target="khaje" />
                 <Prop Name="vendor.iop.enable_uxe" Value="0" Target="khaje" />
                 <Prop Name="ro.vendor.perf.enable.procomp" Value="true" Target="khaje" />
-                <Prop Name="ro.vendor.perf.qgpe" Value="true" Target="khaje" />
-                <Prop Name="ro.vendor.perf.qape" Value="true" Target="khaje" />
                 <Prop Name="ro.vendor.perf.ss" Value="true" Target="khaje"/>
                 <Prop Name="ro.vendor.perf.lal" Value="true" Target="khaje"/>
                 <Prop Name="ro.vendor.perf.lgl" Value="true" Target="khaje" SkewType="10"/>
