@@ -5,6 +5,6 @@
 //
 
 runtime_resource_overlay {
-    name: "SystemUIResCommon",
+    name: "SystemUIResTopaz",
     product_specific: true,
 }

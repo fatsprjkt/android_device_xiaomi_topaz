@@ -3,7 +3,7 @@
      SPDX-License-Identifier: Apache-2.0
 -->
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.android.systemui.overlay.common">
+    package="com.android.systemui.overlay.topaz">
 
     <overlay
         android:isStatic="true"
