@@ -380,6 +380,7 @@ PRODUCT_PACKAGES += \
     FrameworksResCommon \
     FrameworksResTarget \
     FrameworksResTopaz \
+    SettingsResTopaz \
     SystemUIResTopaz \
     TelecommResCommon \
     TelephonyResCommon \
