@@ -61,10 +61,10 @@ void load_redmi_topaz() {
     property_override("ro.product.model", "23021RAA2Y");
     property_override("ro.product.mod_device", "topaz_global");
     property_override("ro.product.name", "topaz");
-    property_override("ro.bootimage.build.fingerprint", "Redmi/topaz_global/topaz:13/TKQ1.221114.001/V14.0.7.0.TMGMIXM:user/release-keys");
-    property_override("ro.build.description", "topaz_global-user 13 TKQ1.221114.001 V14.0.7.0.TMGMIXM release-keys");
-    property_override("ro.build.fingerprint", "Redmi/topaz_global/topaz:13/TKQ1.221114.001/V14.0.7.0.TMGMIXM:user/release-keys");
-    property_override("ro.vendor.build.fingerprint", "Redmi/topaz_global/topaz:13/TKQ1.221114.001/V14.0.7.0.TMGMIXM:user/release-keys");
+    property_override("ro.bootimage.build.fingerprint", "Redmi/topaz_global/topaz:13/TKQ1.221114.001/V14.0.8.0.TMGMIXM:user/release-keys");
+    property_override("ro.build.description", "topaz_global-user 13 TKQ1.221114.001 V14.0.8.0.TMGMIXM release-keys");
+    property_override("ro.build.fingerprint", "Redmi/topaz_global/topaz:13/TKQ1.221114.001/V14.0.8.0.TMGMIXM:user/release-keys");
+    property_override("ro.vendor.build.fingerprint", "Redmi/topaz_global/topaz:13/TKQ1.221114.001/V14.0.8.0.TMGMIXM:user/release-keys");
 }
 
 void load_redmi_tapas() {
