@@ -376,7 +376,7 @@ PRODUCT_PACKAGES += \
 
 # Overlays
 PRODUCT_PACKAGES += \
-    CarrierConfigResCommon \
+    CarrierConfigResTopaz \
     FrameworksResCommon \
     FrameworksResTarget \
     FrameworksResTopaz \
