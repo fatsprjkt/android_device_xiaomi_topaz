@@ -389,6 +389,7 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     CarrierConfigResTopaz \
     FrameworksResTopaz \
+    NotchBarKiller \
     SettingsResTopaz \
     SystemUIResTopaz \
     TelephonyResTopaz \
