@@ -789,4 +789,7 @@
         <item>53</item>
     </integer-array>
 
+    <!-- Determines whether the shell features all run on another thread. -->
+    <bool name="config_enableShellMainThread">true</bool>
+
 </resources>
