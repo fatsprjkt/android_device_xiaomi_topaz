@@ -388,21 +388,12 @@ PRODUCT_PACKAGES += \
 PRODUCT_ENFORCE_RRO_TARGETS := *
 
 PRODUCT_PACKAGES += \
-    CarrierConfigResCommon \
-    FrameworksResCommon \
-    FrameworksResTarget \
+    CarrierConfigResTopaz \
     FrameworksResTopaz \
     SettingsResTopaz \
-    SettingsOverlayM7G \
-    SettingsOverlayM7N \
-    SettingsOverlayM7L \
-    SettingsOverlayM7IN \
-    SystemUIResCommon \
     SystemUIResTopaz \
-    TelecommResCommon \
-    TelephonyResCommon \
-    WifiResCommon \
-    WifiResTarget
+    TelephonyResTopaz \
+    WifiResTopaz
 
 # Overlays Lineage
 DEVICE_PACKAGE_OVERLAYS += \

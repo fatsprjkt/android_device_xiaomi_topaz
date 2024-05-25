@@ -5,7 +5,7 @@
 //
 
 runtime_resource_overlay {
-    name: "SettingsResTopaz",
-    theme: "SettingsResTopaz",
+    name: "WifiResTopaz",
+    theme: "WifiResTopaz",
     product_specific: true,
 }

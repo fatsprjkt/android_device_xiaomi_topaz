@@ -6,5 +6,6 @@
 
 runtime_resource_overlay {
     name: "FrameworksResTopaz",
-    device_specific: true,
+    theme: "FrameworkResTopaz",
+    product_specific: true,
 }
