@@ -396,7 +396,6 @@ PRODUCT_PACKAGES += \
     libOmxCore
 
 # Overlays
-
 PRODUCT_PACKAGES += \
     ApertureTopaz \
     CarrierConfigResTopaz \
@@ -406,6 +405,9 @@ PRODUCT_PACKAGES += \
     SystemUIResTopaz \
     TelephonyResTopaz \
     WifiResTopaz
+
+PRODUCT_PACKAGES += \
+    TelecommResCommon
 
 # Overlays Lineage
 DEVICE_PACKAGE_OVERLAYS += \
